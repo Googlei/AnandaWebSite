@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+	<html>
+
+		<title>Voca-IT Site</title>
+
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" type="text/css" href = "css/anandaStyle.css"> 
+		
+		<body>
+				<!--NavBar(sit on top) -->	 
+				<div class = "w3-top">
+					<div class="w3-bar" id = "myNavbar">
+					<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" 
+								onclick="toggleFunction()" title="Toggle Navigation Menu">
+									<i class = "fa fa-bars"></i>
+					</a>
+						<a href="#home" class = "w3-bar-item w3-button">HOME</a>
+						<a href="#about" class = "w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>ABOUT US</a>
+						<a href="#portofolio" class = "w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>PORTOFOLIO</a>
+						<a href="#contact" class = "w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>CONTACT US</a>
+						<a href="#" class = "w3-bar-item w3-button w3-hide-small w3-right w3-hover-white">
+						<input class = "w3-hide-small" type = "text" placeholder = "Search..">
+							<i class="fa fa-search"></i>
+						</a>
+					</div>
+
+					<!--NavBar on small screen -->
+
+					<div id = "navDemo" class = "w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+						<a href="#about" class ="w3-bar-item w3-button " onclick="toggleFunction()">ABOUT US</a>
+						<a href="#portofolio" class = "w3-bar-item w3-button" onclick="toggleFunction()">PORTOFOLIO</a>
+						<a href="#contact" class = "w3-bar-item w3-button" onclick="toggleFunction()">CONTACT WE</a>
+						<a href="#" class = "w3-bar-item w3-button">SEARCH</a>
+					</div>
+				</div>
+
+					<!-- first Parallax Image with Logo Text -->
+
+					<div style = "background-color : pink" class="bgimg-1 w3-display-container w3-buttonopacity-min" id="home">	
+						<div class="w3-display-middle" style="white-space: nowrap;">
+							<span class="w3-center w3-padding-large w3-white-space w3-xlarge w3-wide w3-animate-opacity"> 
+								<span style = "font-style : sans-serif" class="w3-hide-small">We Are IT We Can Change World</span>
+							</span>
+						</div>
+					</div>
+
+					<!-- container (about section) -->
+
+					<div style = "background-color : #f8bbd0" class="w3-content w3-container w3-padding-64" id="about">
+						<h3 class="w3-center">ABOUT US</h3>
+						<p class="w3-center"> <em>hai kata2 pak alfian</em></p>
+						<p>
+							Hai Selamat datang di Web kami, disini Saya Sebagai Leader Team Ananda // kata2 pak alfian
+						</p>
+							<div class="w3-row">
+								<div class="w3-col m6 w3-center w3-padding-large">
+									<p><b><i class="fa fa-user w3-margin-right"></i>Leader ANANDA IT TEAM </b></p>
+										<img src="item/AlfianLeaderTeam.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" 
+												alt="Leader of Photo" width="500" height="333">
+								</div>
+
+							<!-- Hide this text on small devices -->
+
+								<div class="w3-col m6 w3-hide-small w3-padding-large">
+									<p>
+										 haii masih kata2 pak alfian
+									</p>
+								</div>
+							</div>
+									<p class="w3-large w3-center w3-padding-16">We're Realy Good at JobDesk: </p>
+									
+									<p class="w3-wide"> <i class="fa fa-help"></i>	IT Support Service </p>
+										<div class = "w3-light-grey">
+											<div class = "w3-container w3-padding-small w3-dark-grey w3-center" style = "width : 70%"> 70% </div >
+										</div>
+									
+									<p class = "w3-wide"> <i class = "fa fa-webdev"> </i> Front End Web Developer Service</p>
+										<div class = "w3-light-grey">
+											<div class = "w3-container w3-padding-small w3-dark-grey w3-center" style = "width : 40%"> 40% </div>
+										</div>
+										
+									<p class = "w3-wide"> <i class = "fa fa-webdev"> </i> Back End Web Developer Service</p>
+										<div class = "w3-light-grey">
+											<div class = "w3-container w3-padding-small w3-dark-grey w3-center" style = "width : 20%"> 20% </div>
+										</div>
+										
+									<p class = "w3-wide"> <i class = "fa fa-design"> </i> PhotoShop Design Service</p>
+										<div class = "w3-light-grey">
+											<div class = "w3-container w3-padding-small w3-dark-grey w3-center" style = "width : 75%">75%</div>
+										</div>	
+										
+									<p class = "w3-wide"> <i class = "fa fa-network"> </i> Networking Consultant Service</p>
+										<div class = "w3-light-grey">
+											<div class = "w3-container w3-padding-small w3-dark-grey w3-center" style = "width : 56%">56%</div>
+										</div>				
+										
+									<p class = "w3-wide"> <i class = "fa fa-network"> </i> Digital Marketing Service</p>
+										<div class = "w3-light-grey">
+											<div class = "w3-container w3-padding-small w3-dark-grey w3-center" style = "width : 46%">46%</div>
+										</div>				
+
+									
+					</div>
+
+					<div class = "w3-row w3-center w3-dark-grey w3-padding-16">
+						<div class = "w3-quarter w3-section">
+							<span class = "w3-xlarge"> </span><br>
+								Partners
+						</div>
+						
+						<div class = "w3-quarter w3-section">
+							<span class = "w3-xlarge"> </span><br>
+								Projects Done
+						</div>
+						
+						<div class = "w3-quarter w3-section">
+							<span class = "w3-xlarge"> </span><br>
+								Happy Clients
+						</div>
+						
+						<div class = "w3-quarter w3-section">
+							<span class = "w3-xlarge"> </span> <br>
+								Meetings
+						</div>
+					</div>
+					
+					<!--! second parallax image with portofolio Text -->
+						
+						<div style = "background-color : #e1bee7" class = "bgimg-2 w3-display-container w3-opacity-min">
+							<div class = "w3-display-middle">
+								<span class = "w3-xxlarge w3-text-white w3-wide"> Portofolio </span>
+							</div>
+						</div>
+						
+					<!-- container portofolio section -->
+				<div style = "background-color : #ffcdd2"class = "w3-content w3-container w3-padding-64" id = "portofolio">
+							<h3 class = "w3-center"> We Work</h3>
+								<p class = "w3-center"><em>			<br> 		</em> </p> </br>
+								
+					<!-- Responsive Grid, four columns on tables, laptop and desktop , will stack on mobile device / small screens (100% width) -->
+						<div class = "w3-row-padding w3-center">
+							<div class = "w3-col m3">
+								<img src  = "item/brain1.png"	style = "width : 100%" onclick = "onClick(this)" class = "w3-hover-opacity" alt = "hai">
+							</div>
+							
+							<div class = "w3-col m3">
+								<img src = "" style = "width:100%" onclick = "onClick(this)" class = "w3-hover-opacity" alt = "">
+							</div>
+							
+							<div class = "w3-col m3">
+								<img src = "" style = "width:100%" onclick =  "onClick(this)" class = "w3-hover-opacity" alt = "">
+							</div>
+							
+							<div class = "w3-col m3">
+								<img src = "" style = "width:100%" onclick =  "onClick(this)" class = "w3-hover-opacity" alt = "">
+							</div>
+						</div>
+							
+							<div class = "w3-row-padding w3-center w3-section">
+								<div class = "w3-col m3">
+									<img src = "item/worldHack1.jpeg" style = "width:100%"  onclick = "onClick(this)" class = "w3-hover-opacity" alt = "">
+								</div>
+								
+								<div class = "w3-col m3">
+									<img src = "" style = "width:100%" onclick = "onClick(this)" class = "w3-hover-opacity" alt = "">
+								</div>
+								
+								<div class = "w3-col m3">
+									<img src = "" style = "width:100%" onclick = "onClick(this)" class = "w3-hover-opacity" alt = "">
+								</div>
+								
+								<div class = "w3-col m3">
+									<img src = "" style = "width:100%" onclick = "onClick(this)" class = "w3-hover-opacity" alt = "">
+								</div>
+								
+								<button class = "w3-button w3-padding-large w3-light-grey" style = "margin-top : 64px"> LOAD MORE </button>
+							</div>
+				</div>
+
+				<!-- modal for full size images on click -->
+					
+					<div id = "modal01" class = "w3-modal w3-black" onclick = "this.style.display = 'none'">
+						<span class = "w3-button w3-large w3-black w3-display-topright" title = "Close Model Image"> <i class = "fa fa-remove"> </i> </span>
+							<div class = "w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+								<img id = "img01" class = "w3-image">
+									<p id = "caption" class = "w3-opacity w3-large"> </p>
+							</div>
+					</div>
+					
+				<!-- third parallax image with portofolio text -->
+				
+					<div class = "bgimg-3 w3-display-container w3-opacity-min">
+						<div class = "w3-display-middle">
+							<span class = "w3-xxlarge w3-text-white w3-wide"> Contact </span>
+						</div>
+					</div>
+				
+				<!-- Container (contact section) -->
+				
+				<div style = "background-color : #ffccbc" class = "w3-content w3-container w3-padding-64" id = "contact">
+					<h3 class = "w3-center"> Where We Work ? </h3>
+						
+						<p class = "w3-center"> <em> I'd love your feedback ! </em> </p>
+						
+								<div class = "w3-col m8 w3-panel">
+									<div class = "w3-large w3-margin-bottom">
+										<i class = "fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"> </i>
+											Jl.Prof.M.Yamin No.21,Duren Jaya Bekasi Timur,Indonesia <br>
+										<i class = "fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"> </i> Phone : (021) 8803816<br>
+										<i class = "fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"> </i> Email :  <br>
+									</div>
+										<p> content yang akan di isi oleh TEAM IT <i class = "fa fa-coffee"> </i> , or leave me a note : </p>
+											<form action = "/action_page.php" target = "_blank">
+												<div class = "w3-row-padding" style = "margin : 0 -16px 8px -16px">
+													<div class = "w3-half">
+														<input class = "w3-input w3-border" type = "text" placeholder = "Name" required name = "Name">
+													</div>
+													
+													<div class = "w3-half">
+														<input class = "w3-input w3-border" type = "text" placeholder = "Email" required name = "Email">
+													</div>
+												</div>
+													<input class = "w3-input w3-border" type = "text" placeholder = "Message" required name = "Message">
+														<button class = "w3-button w3-black w3-right w3-section" type = "submit">
+															<i class = "fa fa-paper-plans"> </i> SEND MESSAGE
+														</button>
+											</form>
+								</div>
+				</div>
+				
+				<!-- footer in web site -->
+				
+				<footer class = "w3-center w3-blue w3-padding-16 w3-opacity w3-hover-opacity-off">
+					<a href = "#home" class = "w3-button w3-light-grey"> <i class = "fa fa-arrow-up w3-margin-right"> </i> To the Top </a>
+							<div class="logo-kecil" style = "margin : 20px">
+								<a href="https://www.facebook.com/public/Voca-Ananda" target="_blank"><img style="margin: 10px;" src="photo/glyphicons-social-31-facebook.png" ></img></a>
+								<a href="https://twitter.com/smk_ananda?lang=en" target="_blank"><img style="margin: 10px;" src="photo/glyphicons-social-32-twitter.png" ></img></a>
+								<a href="https://www.instagram.com/ohvoca_ananda/" target="_blank"><img style="margin: 10px;" src="photo/glyphicons-social-33-instagram.png" ></img></a>
+								<a href="https://goo.gl/maps/rcFkuY7UxQG2" target="_blank"><img style="margin: 10px;" src="photo/glyphicons-503-map.png" ></img></a>
+							</div>
+						
+					<p style = "padding-bottom : 1px"> Powered By ANANDA IT TEAM </p>
+					<p> Created By ANANDA CEO </P>
+				</footer>
+				
+		</body>
+	</html> 
